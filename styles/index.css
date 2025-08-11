@@ -27,3 +27,109 @@ body {
 .nav-links:hover {
     color: aliceblue;
 }
+
+.row {
+    width: 100vw;
+    height: fit-content;
+    padding: 10px 300px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid rgb(82, 76, 76);
+}
+
+.card-1 {
+    width: 60%;
+    height: 330px;
+}
+
+.card-2 {
+    width: 40%;
+    height: 330px;
+}
+
+.card-3 {
+    width: 40%;
+    height: 330px;
+}
+
+.card-4 {
+    width: 60%;
+    height: 330px;
+}
+
+.tortaBackground {
+    background-image: url(/image/torta.avif);
+    background-size: cover;
+}
+
+.raviolesBackground {
+    background-image: url(/image/ravioles.webp);
+    background-size: cover;
+}
+
+.tartaBackground {
+    background-image: url(/image/tarta-espinaca.jpg);
+    background-size: cover;
+}
+
+.espinacaBackground {
+    background-image: url(/image/tarta-ricota.jpg);
+    background-size: cover;
+}
+
+.card-5 {
+    width: 50%;
+    height: 330px;
+}
+
+.card-6 {
+    width: 50%;
+    height: 330px;
+}
+
+.carneBackground {
+    background-image: url(/image/carne.jpg);
+    background-size: cover;
+}
+
+.pastaBackground {
+    background-image: url(/image/fideos.jpg);
+    background-size: cover;
+}
+.card-7 {
+    width: 50%;
+    height: 330px;
+}
+
+.card-8 {
+    width: 50%;
+    height: 330px;
+}
+
+.pizzaBackground {
+    background-image: url(/image/pizza.jpg);
+    background-size: cover;
+}
+ 
+.sorrentinosBackground {
+    background-image: url(/image/sorrentinos.jpg);
+    background-size: cover;
+}
+.h2-main {
+    margin: 80px 50px 0px 300px;
+
+}
+
+.h2-selection {
+    margin: 80px 50px 0px 300px;
+}
+
+.h1Color {
+    background-color: grey ;
+}
